@@ -2,12 +2,14 @@
 // array are numbers greater than 10.
 function anyGreaterThan10(input) {
   return input.some(biggerThan10 => biggerThan10 > 10);
+  // biggerThan10 could be better named as `number`
 }
 
 // Check to see if any of the strings in
 // the array is longer than 10 characters.
 function longWord(input) {
   return input.some(longerThan10 => longerThan10.length > 10);
+  // longerThan10 too.
 }
 
 // Check to see if any of the elements in

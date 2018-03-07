@@ -14,6 +14,7 @@ function luckyNumbers(array) {
   const reducer = (accumulator, currentValue) => (accumulator + ", " + currentValue)
   var numberString = array.reduce(reducer);
   return firstString + numberString + ".";
+  // clean and readable solution
 }
 
 module.exports = {
