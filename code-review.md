@@ -1,6 +1,6 @@
 Overall, nice solutions! Lots of nice one-liners which are elegant and easy to understand. 
 
-My only suggestion for improvement is on variable names - mostly your variable names are good, just some variable names within the callback functions can be better named. (see my inline comments in your code)
+My only suggestion for improvement is on variable names - mostly your variable names are good, just some variable names within the callback functions can be better named (e.g. in `some/core.js`, `biggerThan10` should be more accurately named as `number`) .
 
 - Code hygiene
 	- [x] Good indentation
