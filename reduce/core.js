@@ -21,3 +21,4 @@ module.exports = {
   productAll: productAll,
   luckyNumbers: luckyNumbers
 };
+
